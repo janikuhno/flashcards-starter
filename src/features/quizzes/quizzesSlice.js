@@ -19,7 +19,7 @@ export const addQuizForTopicId = (quiz) => {
     const { topicId, id } = quiz;
     return (dispatch) => {
         dispatch(quizzesSlice.actions.addQuiz(quiz));
-        dispatch(addQuizIdForTopic({ topicId: topicId, id: id }));
+        dispatch(addQuizIdForTopic({ topicId: topicId, quizId: id }));
     };
 };
 
