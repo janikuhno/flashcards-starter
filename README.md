@@ -1,3 +1,7 @@
+# Flashcards
+
+An app created with React, Redux, and Redux Toolkit. It allows users to create their own topics, quizzes for those topics, and flashcards for those quizzes. Users will also be able to interact with their quizzes by flipping flashcards over.
+
 # To Run
 
 Run `npm start` in the project root and the app will be available on port 3000.
